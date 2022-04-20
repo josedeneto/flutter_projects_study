@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tarefas/models/todos.dart';
 import 'package:tarefas/repositories/todo_repositories.dart';
-import 'package:tarefas/widgets/constants.dart';
+import 'package:tarefas/constants.dart';
 import 'package:tarefas/widgets/list_todo_item.dart';
 
 class ListTodoPage extends StatefulWidget {

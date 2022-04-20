@@ -3,7 +3,7 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
 import 'package:tarefas/models/todos.dart';
 
-import 'constants.dart';
+import '../constants.dart';
 
 class ListTodoItem extends StatelessWidget {
   const ListTodoItem({Key? key, required this.todo, required this.onDelete})
