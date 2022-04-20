@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tarefas/pages/list_page.dart';
-
 import 'pages/list_todo_page.dart';
 
 void main() {

@@ -112,7 +112,7 @@ class _ListTodoPageState extends State<ListTodoPage> {
               ),
               Row(
                 children: [
-                  Expanded(child: Text('Você tem ${todos.length} pendentes')),
+                  Expanded(child: Text('Você tem ${todos.length} tarefas pendentes')),
                   ElevatedButton(
                     onPressed: todos.isEmpty ? null : showConfirmation,
                     child: Text('Limpar'),
