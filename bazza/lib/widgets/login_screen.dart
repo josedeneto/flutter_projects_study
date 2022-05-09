@@ -85,8 +85,8 @@ class _LoginState extends State<Login> {
                             ),
                             suffixIcon: InkWell(
                               onTap: _tooglePasswordView,
-                              child: const Icon(
-                                Icons.visibility,
+                              child: Icon(isHiddenPassword?
+                                Icons.visibility:Icons.visibility_off_outlined,
                                 color: terceryColor,
                               ),
                             )),
